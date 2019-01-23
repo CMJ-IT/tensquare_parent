@@ -34,6 +34,7 @@ public class LabelService {
     }
 
     /*修改*/
+    /*修改*/
     public void update(Label label){
         labelDao.save(label);
     }
