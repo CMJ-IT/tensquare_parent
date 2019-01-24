@@ -33,7 +33,7 @@ public class LabelService {
         labelDao.save(label);
     }
 
-    /*修改*
+    /*修改*/
     public void update(Label label){
         labelDao.save(label);
     }
@@ -46,5 +46,6 @@ public class LabelService {
     /*创建查询条件*/
     public Object findSearch(Map searchMap) {
         return null;
+
     }
 }
